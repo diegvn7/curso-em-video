@@ -1,0 +1,21 @@
+.center-text {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.center-text.-vd {
+    margin: 15px;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.center-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
