@@ -27,5 +27,24 @@ header > p > a:hover {
 }
 
 main > p {
-    padding: 40px 30px;
+    padding: 90px 30px;
+    
+}
+
+.foto {
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.foto.-second {
+    background-image: url(imagens/background002.jpg);
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
