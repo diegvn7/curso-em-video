@@ -5,41 +5,38 @@ header {
     padding: 30px;
 }
 
-h1 {
-    font-weight: lighter;
-    color: white;
-    font-size: 7vw
-}
-
-header > p {
-    color: white;
-    font-size: larger;
-}
-
-header > p > a {
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-}
-
 header > p > a:hover {
     text-decoration: underline;
 }
 
-main > p {
-    padding: 90px 30px;
-    
+section {
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.foto > p {
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+section > p {
+    padding-top: 2em;
 }
 
 .foto {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
     background-image: url(imagens/background001.jpg);
-    background-position: center center;
+    background-position:  right center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .foto.-second {
     background-image: url(imagens/background002.jpg);
+    background-position: left center;
 }
 
 footer {
