@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(211, 211, 211, 0.603);
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            background-color: gray;
+            padding: 10px;
+        }
+
+        header > h1 {
+            color: white;
+            margin: 5px 50px 5px 5px;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.411);;
+        }
+
+        nav {
+            padding:10px 0px;
+        }
+
+        nav a {
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            padding: 10px;
+            margin-left: 5px;
+            box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.411);
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        main {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.411);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        @media screen and (max-width: 600px) { 
+            header {
+                justify-content: center;
+            }
+
+            header h1 {
+                margin: 0px;
+            }
+
+            nav a {
+                display: block;
+                width: 90vw;
+                margin-top: 10px;
+                text-align: center;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Opção 1</a>
+            <a href="#">Opção 2</a>
+            <a href="#">Opção 3</a>
+            <a href="#">Opção 4</a>
+            <a href="#">Opção 5</a>
+            <a href="#">Opção 6</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Teste de flexbox</h2>
+        <p>
+            - Índio chuta de qualquer maneira para o meio de campo. De cabeça, Adriano Gabiru. Tocou Luiz Adriano para o Iarley. Olha o gol do Inter pintando. Luiz Adriano está livre, lá vai Iarley. Tocou no Gabiru, vai marcar o gol, atirou. Gooooool. Gooooool. Gol do Internacional. O Inter vai ser campeão do mundo. O Inter vai ser campeão do Mundo. Aos 36 minutos, Iarley passa para Gabiru, criticado e odiado pelo torcedor do Inter. Ele reverte e tem o seu amor torcedor colorado. São 10 horas no Brasil, do dia 17 de dezembro de 2006. Prepare a festa torcedor, o Inter vai ser campeão do mundo. O Inter vai cortar os cabelos do Ronaldinho, os cabelos do Puyol, vai rasgar a camisa do Barcelona. O Inter vai ganhar o mundo. O famoso, rico, milionário e festejado Barcelona está sendo inapelavelmente batido pelo Internacional. Gabiru, Gabiru é o nome do gol. O Inter vai ser campeão do mundo.
+
+            Na campanha do Internacional no Mundial de Clubes de 2006, o Internacional também venceu o Al-Ahly, do Egito, por 2 a 1, com gols de Luiz Adriano e Alexandre Pato. O Barcelona, antes de enfrentar o time brasileiro, goleou o América, do México, por 4 a 0. 
+        </p>
+    </main>
+</body>
+</html>
